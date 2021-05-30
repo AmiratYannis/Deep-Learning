@@ -1,22 +1,3 @@
-"""
-tanh
-~~~~
-
-Plots a graph of the tanh function."""
-
-import numpy as np
-import matplotlib.pyplot as plt
-
-z = np.arange(-5, 5, .1)
-t = np.tanh(z)
-
-fig = plt.figure()
-ax = fig.add_subplot(111)
-ax.plot(z, t)
-ax.set_ylim([-1.0, 1.0])
-ax.set_xlim([-5,5])
-ax.grid(True)
-ax.set_xlabel('z')
-ax.set_title('tanh function')
-
-plt.show()
+version https://git-lfs.github.com/spec/v1
+oid sha256:8a7aead6c9a514e83baedc89335b1426e676bfc8c1e858ffd4890dfb3d679016
+size 327
